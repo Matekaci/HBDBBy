@@ -1,0 +1,440 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Roboto+Slab&display=swap');
+
+
+body{
+    background-image: url(tictac2.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center center;
+    background-color: rgb(50, 20, 20);
+    background-blend-mode:multiply;
+    font-family: 'Croissant One', cursive;
+    
+}
+/*text in image 111*/
+
+.MM {
+  text-decoration: none;
+  display: block;
+  align-content: center;
+}
+/*header center*/
+.MM1{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  position: absolute; /* Use absolute positioning */
+  left: 50%; /* Align the left edge of .MM1 at 50% of the parent container's width */
+  transform: translate(-50%, -0%); /* Move .MM1 up and left by 50% of its own width and height */
+}
+.image-container1{
+  clip-path: polygon(
+    50% 15%,
+    85% 50%,
+    50% 85%,
+    15% 50%
+  ); /* Creates a heart shape using clip-path */
+  position: absolute;
+  display: inline-block;
+}
+.text-overlay1 {
+  position: absolute;
+  top: 230px;
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Center horizontally */
+  width: 300PX;
+  height: 250PX;
+  background-color: rgba(0, 0, 0, 0); /* Background color for the overlay */
+  background: fill;
+  color: white; /* Text color on hover */
+  opacity: 0; /* Start with the text hidden */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.3s; /* Add a smooth transition effect */
+  font-size: 300%;
+  text-align: center;
+  text-decoration: double;
+  text-decoration-color: pink;
+  color: pink;
+  z-index: 0;
+}
+
+
+
+.imagecontainer1:hover .text-overlay1 {
+  opacity: 1; /* Show the text on hover */
+  z-index: 1;
+}
+.img111 {
+  position: absolute; /* Use absolute positioning */
+  top: 50%; /* Align the top edge of .MM1 at 50% of the parent container's height */
+  left: 50%; /* Align the left edge of .MM1 at 50% of the parent container's width */
+  transform: translate(-50%, -50%); /* Move .MM1 up and left by 50% of its own width and height */
+}
+
+
+/* Remove text decoration from li elements */
+.lists-left ul,
+.lists-right ul {
+    list-style: none;
+}
+
+/* Scatter the lists */
+#nav1 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    transition: 0.3s ease;
+
+  }
+  
+  #nav2 {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    transition: 0.3s ease;
+  }
+  
+  #nav3 {
+    position: absolute;
+    top: 90px;
+    left: 90px;
+    transition: 0.3s ease;
+  }
+  
+  #nav4 {
+    position: absolute;
+    top: 130px;
+    left: 130px;
+    transition: 0.3s ease;
+  }
+
+  
+  #nav5 {
+    position: absolute;
+    top: 170px;
+    left: 170px;
+    transition: 0.3s ease;
+  }
+  
+  #nav6 {
+    position: absolute;
+    top: 210px;
+    left: 210px;
+    transition: 0.3s ease;
+  }
+
+  #nav7 {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+
+  #nav8 {
+    position: absolute;
+    top:50px;
+    right:50px;
+  }
+
+  #nav9 {
+    position: absolute;
+    top:90px;
+    right:90px;
+  }
+  #nav10 {
+    position: absolute;
+    top: 130px;
+    right: 130px;
+  }
+  #nav11 {
+    position: absolute;
+    top:170px;
+    right: 170px;
+  }
+  #nav12 {
+    position:absolute;
+    top: 210px;
+    right: 210px;
+  }
+  /*transition ease*/
+  #nav1,
+  #nav2,
+  #nav3,
+  #nav4,
+  #nav5,
+  #nav6{
+    transition: 0.3s ease;
+  }
+  #nav1:hover,
+  #nav2:hover,
+  #nav3:hover,
+  #nav4:hover,
+  #nav5:hover,
+  #nav6:hover
+   {
+    z-index: 0;
+   }
+  #nav7,
+  #nav8,
+  #nav9,
+  #nav10,
+  #nav11,
+  #nav12{
+    transition: 0.3s ease;
+  }
+  #nav7:hover,
+  #nav8:hover,
+  #nav9:hover,
+  #nav10:hover,
+  #nav11:hover,
+  #nav12:hover{
+   z-index: 0;
+  }
+
+
+  /* Add hover effect */
+  
+  
+  .lists-left ul:hover {
+    padding-left:;
+    background: linear-gradient(110deg, rgb(159, 25, 196) 25%, rgb(159, 25, 196) 50%, rgb(157, 62, 189)85%, rgb(92, 8, 105) 100%, 0);
+    cursor: pointer;
+    z-index: 1;
+  }
+  .lists-right ul:hover {
+    padding-right:;
+    background: linear-gradient(110deg, rgb(159, 25, 196) 25%, rgb(159, 25, 196) 50%, rgb(157, 62, 189)85%, rgb(92, 8, 105) 100%, 0);
+    cursor: pointer;
+    z-index: 1;
+  }
+
+
+  .guli{
+    position: absolute;
+    top: 81.1%;
+    left: 39.05%;
+    transform: translateX(-81.1%, -39.05%);
+    width: 330px;
+  }
+
+  .gulipatara{
+    width: 110px;
+    position: absolute;
+    top:120%;
+    left:46.3%;
+  }
+  .spotlogo{
+    width: 65px;
+    position: absolute;
+    top:122%;
+    left:47.79%;
+  }
+  /*little red heart display*/
+              #h1,
+              #h2,
+              #h3,
+              #h4,
+              #h5,
+              #h6{
+                  width: 70px;
+              }
+  
+              #h1{
+                position: absolute;
+                top: 105%;
+                left:30%;
+              }
+              #h2{
+                position: absolute;
+                top: 55%;
+                left: 20%;
+              }
+              #h3{
+                position: absolute;
+                top: 70%;
+                left: 30%;
+              }
+              #h4{
+                position: absolute;
+                top: 105%;
+                right: 30%;
+              
+              }
+              #h5{
+                position: absolute;
+                top: 70%;
+                right: 30%;
+              
+              }
+              #h6{
+                position: absolute;
+              top: 55%;
+              right: 20%;
+
+              }
+
+#nav1  img{
+  width: 30px;
+}
+#nav2 img{
+  width: 30px;
+}
+#nav3 img{
+  width: 30px;
+}
+#nav4 img{
+  width: 30px;
+}
+#nav5 img{
+  width: 30px;
+}
+#nav6 img{
+  width: 30px;
+}
+#nav7 img{
+  width: 30px;
+}
+#nav8 img{
+  width: 30px;
+}
+#nav9 img{
+  width: 30px;
+}
+#nav10 img{
+  width: 30px;
+}
+#nav11 img{
+  width: 30px;
+}
+#nav12 img{
+  width: 30px;
+}
+.marimate1,
+.marimate2,
+.marimate3,
+.marimate4,
+.marimate5,
+.marimate6,
+.marimate7,
+.marimate8,
+.marimate9,
+.marimate10,
+.marimate11,
+.marimate12{
+ opacity: 0;
+}
+.marimate1{
+  background-image: url(362302389_810367160817147_7966461273291922111_n.jpg);
+}
+/*nav.. hover command*/
+#nav1:hover .marimate1{
+  position: fixed;
+  scale: 500%;
+  opacity: 1;
+}
+#nav2:hover .marimate2{
+  position: fixed;
+  scale: 500%;
+  opacity: 1;
+}
+#nav3:hover .marimate3{
+  position: fixed;
+  position: fixed;
+  scale: 500%;
+  opacity: 1;
+}
+#nav4:hover .marimate4{
+  position: fixed;
+  scale: 500%;
+  opacity: 1;
+}
+#nav5:hover .marimate5{
+  position: fixed;
+  scale: 500%;
+  opacity: 1;
+}
+#nav6:hover .marimate6{
+  position: fixed;
+  scale: 500%;
+  opacity: 1;
+}
+#nav7:hover .marimate7{
+  padding-right: 2%;
+  position: fixed;
+  scale: 500%;
+  opacity: 1;
+}
+#nav8:hover .marimate8{
+  position: fixed;
+  scale: 500%;
+  opacity: 1;
+}
+#nav9:hover .marimate9{
+  position: fixed;
+  scale: 500%;
+  opacity: 1;
+}
+#nav10:hover .marimate10{
+  position: fixed;
+  scale: 500%;
+  opacity: 1;
+}
+#nav11:hover .marimate11{
+  position: fixed;
+  scale: 500%;
+  opacity: 1;
+}
+#nav12:hover .marimate12{
+  position: fixed;
+  scale: 500%;
+  opacity: 1;
+}
+      /*hearts and envelope*/
+
+      .envelope-container {
+        position: absolute;
+        top: 102%; /* Adjust this value to place the envelope vertically */
+        left: 50%; /* Adjust this value to place the envelope horizontally */
+        transform: translate(-50%, -50%); /* Center the envelope horizontally and vertically */
+      }
+
+      .envelope1 {
+        height: 200px;
+        transition: transform 0.3s ease;
+      }
+      .envelope1:hover{
+        scale: 140%;
+        rotate: 60deg;
+        transition: 0.3s ease;
+      }
+
+      .clickme {
+        position: absolute;
+        transform: scale(1.1);
+        top: 50%;
+        left: 33%;
+        opacity: 0;
+        z-index: 0;
+        transition: transform 0.3s ease, background-color 0.3s ease, opacity 0.3s ease, z-index 0.3s ease;
+      }
+      .clickme a{
+        color: black;
+        text-decoration: 0;
+        font-size: large;
+      }
+      .envelope-container:hover .envelope1{
+        scale: 140%;
+        rotate: 60deg;
+        transition: 0.3s ease;
+      }
+
+      .envelope-container:hover .clickme {
+        transform: scale(1.2);
+        top: 50%;
+        left: 33%;
+        background-color: black 0.6;
+        opacity: 1;
+        z-index: 1;
+      }

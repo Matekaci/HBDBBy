@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+
+
+
+
+body {
+    background-color: rgb(34, 30, 13);
+    margin: 0;
+    background-image: url(parchment\ paper.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Cedarville Cursive', cursive;
+}
+
+
+
+
+.content {
+    text-align: center;
+    z-index: 3;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+}
+
+.satauri {
+    position: absolute;
+    padding-top: 1%;
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.maintext {
+    position: absolute;
+    padding-top: 5%;
+    padding-left:2%;
+    padding-right:2%;
+    font-size: 24px;
+    color: #333;
+    text-align: justify;
+    margin: 0;
+    order: 1;
+}
+.footer {
+    position: absolute;
+    padding-top: 40%;
+    font-size: 40PX;
+}

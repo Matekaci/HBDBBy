@@ -1,0 +1,5 @@
+  position: absolute;
+    top: 81.1%; /* Align the top edge of .MM1 at 50% of the parent container's height */
+    left: 39.05%; /* Align the left edge of .MM1 at 50% of the parent container's width */
+    transform: translate(-81.1%, 39.05%); /* Move .MM1 up and left by 50% of its own width and height */
+    width: 330px;
